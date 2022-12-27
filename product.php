@@ -1,9 +1,12 @@
 
 
 <?php
+// Подключите базу данных здесь
+
+require('products_db.php');
 require('components/header.php');
 
-$title = 'Стул Мелмо';
+$title = get_product_title(5);
 
 require('components/product_info.php');
 require('components/footer.php');
