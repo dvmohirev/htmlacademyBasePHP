@@ -3,9 +3,7 @@
 <?php
 require('components/header.php');
 
-$title = 'Люстра Леопом';
-// Используйте keks_log здесь
-
+$title = 'Стул Мелмо';
 
 require('components/product_info.php');
 require('components/footer.php');
