@@ -6,9 +6,10 @@
 require('products_db.php');
 require('components/header.php');
 
-$title = get_product_title(5);
 // Объявите переменную здесь
-$img_url = get_img_url(10);
+$id = 7;
+$title = get_product_title($id);
+$img_url = get_img_url($id);
 
 require('components/product_info.php');
 require('components/footer.php');
